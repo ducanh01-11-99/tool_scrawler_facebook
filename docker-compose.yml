@@ -1,0 +1,19 @@
+version: "2"
+services:
+  crawl:
+    build: .
+    environment:
+      - REST_HOST=${REST_HOST}
+      - WS_HOST=${WS_HOST}
+      - KAFKA_PORT=${KAFKA_PORT}
+      - KAFKA_HOST=${KAFKA_HOST}
+    networks:
+      crawler:
+        ipv4_address: 10.5.0.11
+networks:
+  crawler:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 10.5.0.0/16
+         gateway: 10.5.0.1

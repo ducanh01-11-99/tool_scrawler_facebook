@@ -1,0 +1,32 @@
+[
+    {
+        "account": {
+            "created_date": "2023-07-05T08:58:01.914485Z",
+            "id": 2,
+            "last_modified_date": "2023-07-05T08:58:01.914548Z",
+            "password": "quochoi272",
+            "platform": "+B26TRTMSRLPOD7JNKDIEQ2QT5KNRWTB4+",
+            "username": "0846366591"
+        },
+        "created_date": "2023-07-13T02:54:24.631712Z",
+        "device": {
+            "hardware_status": "",
+            "id": 4,
+            "ip_addr": "192.168.14.105",
+            "online_status": "online"
+        },
+        "id": 12,
+        "mode":
+		{
+			"id" : 2,
+			"name" : "search",
+			"keyword": "[{\"key\": \"minh quan\", \"subKey\": [\"\"]}]",
+            "group_id": "WarCommissar",
+			"link_page": "",
+			"link" : "",
+			"type_auto" : [],
+			"report_type": "account"
+		},
+        "last_modified_date": "2023-07-13T02:54:24.738878Z"
+    }
+]
